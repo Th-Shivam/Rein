@@ -8,6 +8,7 @@ let
     alsa-lib
     libglvnd
     dbus
+    fuse
     xorg.libXtst
     xorg.libX11
     xorg.libXext
