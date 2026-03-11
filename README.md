@@ -85,18 +85,23 @@ Run the following commands inside the virtual machine:
 npm install
 npm run dev
 ```
+
 ### Find the VM IP Address
 
-Linux / macOS:
-
+Linux:
 ```bash
 ip a
+```
+macOS:
+```bash
+ifconfig
 ```
 Windows:
 
 ```bash
 ipconfig
 ```
+
 ### Connect From Your Phone
 
 Open this address on your phone browser:
