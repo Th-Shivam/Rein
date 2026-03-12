@@ -20,7 +20,7 @@ A cross-platform, LAN-based remote control based in **KISS principle**. It allow
 
 This project behaves like a standard Node.js application and can run on Windows, macOS, or Linux. 
 
-> **Note:** For Linux Wayland users, `ydotool` is required for input simulation for now.
+> **Note:** For Linux Wayland users, the `ydotool` daemon should be running, and the user should be added to the **"ydotool" group**.
 
 ### Quick Start
 
