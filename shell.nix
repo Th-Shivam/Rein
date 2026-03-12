@@ -12,6 +12,7 @@ let
     libxtst
     libx11
     libxext
+    git
   ];
 in
 pkgs.mkShell {
@@ -24,6 +25,7 @@ pkgs.mkShell {
   shellHook = ''
     export LD_LIBRARY_PATH=${pkgs.lib.makeLibraryPath sharedLibs}:$LD_LIBRARY_PATH
     alias g="git"
+    git clone https://github.com/AOSSIE-Org/Rein
     npm i
     npm run dist
     appimage-run ./dist/Rein-1.0.0.AppImage
