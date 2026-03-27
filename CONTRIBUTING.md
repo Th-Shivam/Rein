@@ -268,7 +268,7 @@ When testing Rein inside a Virtual Machine (VirtualBox), the VM must allow devic
 
 This allows devices on the same LAN to connect to the Rein server running inside the VM.
 
-### For MacOD
+### For MacOS
 
 Grant Accessibility permission to your terminal/IDE in System Settings → Privacy & Security → Accessibility.
 
